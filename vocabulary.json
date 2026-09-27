@@ -1,0 +1,4446 @@
+{
+  "Python": [
+    [
+      "mutable",
+      "تغییرپذیر"
+    ],
+    [
+      "immutable",
+      "تغییرناپذیر"
+    ],
+    [
+      "iterator",
+      "تکرارگر"
+    ],
+    [
+      "generator",
+      "مولد"
+    ],
+    [
+      "decorator",
+      "دکوراتور"
+    ],
+    [
+      "exception",
+      "استثنا"
+    ],
+    [
+      "inheritance",
+      "وراثت"
+    ],
+    [
+      "polymorphism",
+      "چندریختی"
+    ],
+    [
+      "encapsulation",
+      "کپسوله‌سازی"
+    ],
+    [
+      "scope",
+      "محدوده"
+    ],
+    [
+      "context manager",
+      "مدیر زمینه"
+    ],
+    [
+      "type hint",
+      "راهنمای نوع"
+    ],
+    [
+      "comprehension",
+      "کامپرهنشن"
+    ],
+    [
+      "virtual environment",
+      "محیط مجازی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "Python Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data Types & Variables",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Operators",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Conditionals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Loops",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Functions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data Structures: List/Tuple/Set/Dict",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Comprehensions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Strings",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Files & Context Managers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Exceptions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Modules & Packages",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "OOP: Classes & Objects",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "OOP: Inheritance/Polymorphism/Encapsulation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Iterators & Generators",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Decorators",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Lambda/map/filter",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Type Hints",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Dataclasses",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Virtual Environments & pip",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Testing with pytest",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Logging",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Concurrency Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Clean Code & PEP 8",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ]
+  ],
+  "Git & GitHub": [
+    [
+      "repository",
+      "مخزن"
+    ],
+    [
+      "commit",
+      "ثبت تغییر"
+    ],
+    [
+      "branch",
+      "شاخه"
+    ],
+    [
+      "merge",
+      "ادغام"
+    ],
+    [
+      "rebase",
+      "بازپایه‌گذاری"
+    ],
+    [
+      "conflict",
+      "تعارض"
+    ],
+    [
+      "remote",
+      "مخزن راه‌دور"
+    ],
+    [
+      "pull request",
+      "درخواست ادغام"
+    ],
+    [
+      "staging area",
+      "ناحیه آماده‌سازی"
+    ],
+    [
+      "HEAD",
+      "اشاره‌گر نسخه جاری"
+    ],
+    [
+      "clone",
+      "کپی مخزن"
+    ],
+    [
+      "fetch",
+      "دریافت تغییرات"
+    ],
+    [
+      "tag",
+      "برچسب نسخه"
+    ],
+    [
+      "Git Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Repository Lifecycle",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "add/commit/status/log",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Branches",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Merge & Rebase",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Conflicts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Remote repositories",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "push/pull/fetch",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Pull Requests",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GitHub collaboration",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Gitignore",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Tags & Releases",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GitHub Actions Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ]
+  ],
+  "SQL & Databases": [
+    [
+      "query",
+      "پرس‌وجو"
+    ],
+    [
+      "join",
+      "اتصال"
+    ],
+    [
+      "primary key",
+      "کلید اصلی"
+    ],
+    [
+      "foreign key",
+      "کلید خارجی"
+    ],
+    [
+      "index",
+      "ایندکس"
+    ],
+    [
+      "transaction",
+      "تراکنش"
+    ],
+    [
+      "normalization",
+      "نرمال‌سازی"
+    ],
+    [
+      "CTE",
+      "عبارت جدولی مشترک"
+    ],
+    [
+      "window function",
+      "تابع پنجره‌ای"
+    ],
+    [
+      "aggregation",
+      "تجمیع"
+    ],
+    [
+      "schema",
+      "طرح پایگاه داده"
+    ],
+    [
+      "ACID",
+      "ویژگی‌های تراکنش"
+    ],
+    [
+      "query plan",
+      "برنامه اجرای پرس‌وجو"
+    ],
+    [
+      "Relational Database Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "SELECT/WHERE/ORDER BY",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Aggregations & GROUP BY",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "JOINs",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Subqueries",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "CTEs",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Window Functions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "CASE WHEN",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "NULL handling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Indexes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Transactions & ACID",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Views",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Query Optimization",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "PostgreSQL",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "NoSQL Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "MongoDB Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Vector Databases",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ]
+  ],
+  "NumPy & Pandas": [
+    [
+      "array",
+      "آرایه"
+    ],
+    [
+      "vectorization",
+      "بردارسازی"
+    ],
+    [
+      "broadcasting",
+      "برادکست"
+    ],
+    [
+      "DataFrame",
+      "دیتافریم"
+    ],
+    [
+      "Series",
+      "سری"
+    ],
+    [
+      "indexing",
+      "ایندکس‌گذاری"
+    ],
+    [
+      "aggregation",
+      "تجمیع"
+    ],
+    [
+      "groupby",
+      "گروه‌بندی"
+    ],
+    [
+      "merge",
+      "ادغام"
+    ],
+    [
+      "missing value",
+      "مقدار گمشده"
+    ],
+    [
+      "pivot",
+      "جدول محوری"
+    ],
+    [
+      "dtype",
+      "نوع داده"
+    ],
+    [
+      "NumPy Arrays",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Indexing/Slicing",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Vectorization & Broadcasting",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "NumPy Statistics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Pandas Series/DataFrame",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Reading/Writing Data",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Selection & Filtering",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Missing Values",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Duplicates",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GroupBy/Aggregation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Merge/Join/Concat",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Apply/Map",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Datetime",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Reshaping/Pivot",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Performance",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ]
+  ],
+  "Statistics & Math": [
+    [
+      "mean",
+      "میانگین"
+    ],
+    [
+      "median",
+      "میانه"
+    ],
+    [
+      "variance",
+      "واریانس"
+    ],
+    [
+      "standard deviation",
+      "انحراف معیار"
+    ],
+    [
+      "probability",
+      "احتمال"
+    ],
+    [
+      "distribution",
+      "توزیع"
+    ],
+    [
+      "hypothesis",
+      "فرضیه"
+    ],
+    [
+      "p-value",
+      "مقدار پی"
+    ],
+    [
+      "confidence interval",
+      "فاصله اطمینان"
+    ],
+    [
+      "correlation",
+      "همبستگی"
+    ],
+    [
+      "covariance",
+      "کوواریانس"
+    ],
+    [
+      "gradient",
+      "گرادیان"
+    ],
+    [
+      "eigenvector",
+      "بردار ویژه"
+    ],
+    [
+      "Descriptive Statistics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Probability Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Conditional Probability & Bayes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Random Variables",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Common Distributions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Sampling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Central Limit Theorem",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Confidence Intervals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Hypothesis Testing",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Type I/II Errors",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Correlation vs Causation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Linear Algebra: Vectors/Matrices",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Matrix Operations",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Eigenvalues/Eigenvectors",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Calculus Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Derivatives",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Gradients",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Optimization",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Gradient Descent",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ]
+  ],
+  "Data Cleaning & EDA": [
+    [
+      "outlier",
+      "داده پرت"
+    ],
+    [
+      "missing value",
+      "مقدار گمشده"
+    ],
+    [
+      "imputation",
+      "جایگذاری مقدار گمشده"
+    ],
+    [
+      "encoding",
+      "کدگذاری"
+    ],
+    [
+      "scaling",
+      "مقیاس‌بندی"
+    ],
+    [
+      "normalization",
+      "نرمال‌سازی"
+    ],
+    [
+      "data leakage",
+      "نشت داده"
+    ],
+    [
+      "feature",
+      "ویژگی"
+    ],
+    [
+      "distribution",
+      "توزیع"
+    ],
+    [
+      "skewness",
+      "چولگی"
+    ],
+    [
+      "duplicate",
+      "داده تکراری"
+    ],
+    [
+      "Data Quality",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Missing Data",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Duplicates",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Outliers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data Types",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Scaling/Normalization",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Exploratory Data Analysis",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Univariate Analysis",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Bivariate/Multivariate Analysis",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Visualization",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Feature Engineering",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ]
+  ],
+  "Machine Learning": [
+    [
+      "feature",
+      "ویژگی"
+    ],
+    [
+      "label",
+      "برچسب"
+    ],
+    [
+      "training",
+      "آموزش"
+    ],
+    [
+      "inference",
+      "استنتاج"
+    ],
+    [
+      "overfitting",
+      "بیش‌برازش"
+    ],
+    [
+      "underfitting",
+      "کم‌برازش"
+    ],
+    [
+      "bias",
+      "سوگیری"
+    ],
+    [
+      "variance",
+      "واریانس"
+    ],
+    [
+      "regularization",
+      "منظم‌سازی"
+    ],
+    [
+      "cross-validation",
+      "اعتبارسنجی متقابل"
+    ],
+    [
+      "hyperparameter",
+      "ابرپارامتر"
+    ],
+    [
+      "precision",
+      "دقت مثبت"
+    ],
+    [
+      "recall",
+      "بازخوانی"
+    ],
+    [
+      "F1-score",
+      "امتیاز اف‌یک"
+    ],
+    [
+      "ROC-AUC",
+      "مساحت زیر منحنی ROC"
+    ],
+    [
+      "class imbalance",
+      "عدم توازن کلاس"
+    ],
+    [
+      "baseline",
+      "خط پایه"
+    ],
+    [
+      "ML Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Supervised vs Unsupervised",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Train/Validation/Test",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Linear Regression",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Logistic Regression",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "k-NN",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Decision Trees",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Random Forest",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Gradient Boosting",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "XGBoost Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "SVM",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Naive Bayes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Clustering/K-Means",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "PCA",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Preprocessing Pipelines",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Feature Engineering",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Cross Validation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Hyperparameter Tuning",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Bias-Variance",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Underfitting/Overfitting",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Regularization L1/L2",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Classification Metrics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Regression Metrics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data Leakage",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Model Interpretability",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "scikit-learn Workflow",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ]
+  ],
+  "Deep Learning": [
+    [
+      "neuron",
+      "نورون"
+    ],
+    [
+      "layer",
+      "لایه"
+    ],
+    [
+      "weight",
+      "وزن"
+    ],
+    [
+      "bias",
+      "بایاس"
+    ],
+    [
+      "activation",
+      "تابع فعال‌سازی"
+    ],
+    [
+      "loss function",
+      "تابع زیان"
+    ],
+    [
+      "backpropagation",
+      "پس‌انتشار"
+    ],
+    [
+      "optimizer",
+      "بهینه‌ساز"
+    ],
+    [
+      "epoch",
+      "دوره آموزش"
+    ],
+    [
+      "batch",
+      "دسته"
+    ],
+    [
+      "learning rate",
+      "نرخ یادگیری"
+    ],
+    [
+      "dropout",
+      "دراپ‌اوت"
+    ],
+    [
+      "attention",
+      "توجه"
+    ],
+    [
+      "tensor",
+      "تنسور"
+    ],
+    [
+      "Neural Network Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Perceptron",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Forward Propagation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Loss Functions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Activation Functions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Optimizers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Batch/Epoch",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Regularization/Dropout",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Batch Normalization",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "CNN",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "RNN/LSTM/GRU",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Transformers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "PyTorch Tensors",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "PyTorch Dataset/DataLoader",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Training Loop",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Transfer Learning",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "TensorFlow/Keras Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GPU Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ]
+  ],
+  "NLP & Transformers": [
+    [
+      "token",
+      "توکن"
+    ],
+    [
+      "tokenization",
+      "توکن‌سازی"
+    ],
+    [
+      "embedding",
+      "بردار معنایی"
+    ],
+    [
+      "attention",
+      "توجه"
+    ],
+    [
+      "encoder",
+      "رمزگذار"
+    ],
+    [
+      "decoder",
+      "رمزگشا"
+    ],
+    [
+      "transformer",
+      "ترنسفورمر"
+    ],
+    [
+      "context",
+      "بافت"
+    ],
+    [
+      "fine-tuning",
+      "تنظیم دقیق"
+    ],
+    [
+      "NER",
+      "تشخیص موجودیت نام‌دار"
+    ],
+    [
+      "semantic similarity",
+      "شباهت معنایی"
+    ],
+    [
+      "Text Preprocessing",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Bag of Words/TF-IDF",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Word Embeddings",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Sequence Models",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Transformer Architecture",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Encoder vs Decoder",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "BERT",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GPT-style Models",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Hugging Face Transformers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Fine-tuning Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Text Classification",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Evaluation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ]
+  ],
+  "Computer Vision": [
+    [
+      "pixel",
+      "پیکسل"
+    ],
+    [
+      "convolution",
+      "کانولوشن"
+    ],
+    [
+      "kernel",
+      "کرنل"
+    ],
+    [
+      "feature map",
+      "نقشه ویژگی"
+    ],
+    [
+      "bounding box",
+      "کادر مرزی"
+    ],
+    [
+      "classification",
+      "طبقه‌بندی"
+    ],
+    [
+      "detection",
+      "تشخیص شیء"
+    ],
+    [
+      "segmentation",
+      "قطعه‌بندی"
+    ],
+    [
+      "augmentation",
+      "افزایش داده"
+    ],
+    [
+      "IoU",
+      "همپوشانی اجتماع"
+    ],
+    [
+      "mAP",
+      "میانگین دقت متوسط"
+    ],
+    [
+      "Image Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "OpenCV",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Image Preprocessing",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "CNN for Vision",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Image Classification",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Object Detection",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "YOLO Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data Augmentation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Transfer Learning",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Vision Transformers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Evaluation: IoU/mAP",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Inference Pipeline",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ]
+  ],
+  "LLMs & Prompt Engineering": [
+    [
+      "token",
+      "توکن"
+    ],
+    [
+      "context window",
+      "پنجره زمینه"
+    ],
+    [
+      "prompt",
+      "پرامپت"
+    ],
+    [
+      "system message",
+      "پیام سیستمی"
+    ],
+    [
+      "inference",
+      "استنتاج"
+    ],
+    [
+      "temperature",
+      "دما"
+    ],
+    [
+      "hallucination",
+      "توهم مدل"
+    ],
+    [
+      "structured output",
+      "خروجی ساختاریافته"
+    ],
+    [
+      "tool calling",
+      "فراخوانی ابزار"
+    ],
+    [
+      "guardrail",
+      "محدودکننده ایمنی"
+    ],
+    [
+      "latency",
+      "تأخیر"
+    ],
+    [
+      "fine-tuning",
+      "تنظیم دقیق"
+    ],
+    [
+      "LLM Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Tokens & Context Windows",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Transformer Recap",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Pretraining vs Fine-tuning",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Temperature/Top-p",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "System/User Messages",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Prompt Design",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Few-shot Prompting",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Structured Outputs",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Function/Tool Calling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Hallucinations",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Evaluation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Guardrails",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Cost/Latency",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Caching",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Open-source LLMs",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "LoRA/QLoRA/PEFT",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ]
+  ],
+  "Embeddings & Vector Databases": [
+    [
+      "embedding",
+      "بردار معنایی"
+    ],
+    [
+      "vector",
+      "بردار"
+    ],
+    [
+      "dimension",
+      "بُعد"
+    ],
+    [
+      "cosine similarity",
+      "شباهت کسینوسی"
+    ],
+    [
+      "index",
+      "ایندکس"
+    ],
+    [
+      "nearest neighbor",
+      "نزدیک‌ترین همسایه"
+    ],
+    [
+      "metadata",
+      "فراداده"
+    ],
+    [
+      "semantic search",
+      "جست‌وجوی معنایی"
+    ],
+    [
+      "hybrid search",
+      "جست‌وجوی ترکیبی"
+    ],
+    [
+      "retrieval",
+      "بازیابی"
+    ],
+    [
+      "Embedding Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Semantic Similarity",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Chunk Embeddings",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Vector Indexes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "FAISS",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Chroma",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "pgvector",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Qdrant/Pinecone Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Metadata Filtering",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Indexing & Retrieval Evaluation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ],
+    [
+      "interface",
+      "رابط"
+    ]
+  ],
+  "RAG": [
+    [
+      "retrieval",
+      "بازیابی"
+    ],
+    [
+      "generation",
+      "تولید"
+    ],
+    [
+      "chunk",
+      "قطعه متن"
+    ],
+    [
+      "chunking",
+      "قطعه‌بندی"
+    ],
+    [
+      "embedding",
+      "بردار معنایی"
+    ],
+    [
+      "vector store",
+      "ذخیره‌گاه برداری"
+    ],
+    [
+      "top-k",
+      "کی مورد برتر"
+    ],
+    [
+      "reranking",
+      "رتبه‌بندی مجدد"
+    ],
+    [
+      "grounding",
+      "اتکا به منبع"
+    ],
+    [
+      "citation",
+      "ارجاع"
+    ],
+    [
+      "query rewriting",
+      "بازنویسی پرس‌وجو"
+    ],
+    [
+      "retrieval evaluation",
+      "ارزیابی بازیابی"
+    ],
+    [
+      "RAG Architecture",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Document Loading",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Chunking Strategies",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Embeddings",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Indexing",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Prompt Augmentation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Citations",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Hybrid Retrieval",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "RAG Evaluation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Hallucination Reduction",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Advanced RAG",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Production RAG",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ]
+  ],
+  "AI Agents & LangGraph": [
+    [
+      "agent",
+      "ایجنت"
+    ],
+    [
+      "tool",
+      "ابزار"
+    ],
+    [
+      "state",
+      "وضعیت"
+    ],
+    [
+      "memory",
+      "حافظه"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "routing",
+      "مسیریابی"
+    ],
+    [
+      "planning",
+      "برنامه‌ریزی"
+    ],
+    [
+      "ReAct",
+      "الگوی استدلال و عمل"
+    ],
+    [
+      "node",
+      "گره"
+    ],
+    [
+      "edge",
+      "یال"
+    ],
+    [
+      "human-in-the-loop",
+      "انسان در حلقه"
+    ],
+    [
+      "multi-agent",
+      "چندایجنتی"
+    ],
+    [
+      "MCP",
+      "پروتکل زمینه مدل"
+    ],
+    [
+      "Agent Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Agent vs Workflow",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Tools",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Tool Calling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "ReAct Pattern",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "LangChain Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "LangGraph StateGraph",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Nodes & Edges",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Conditional Edges",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Multi-Agent Systems",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Error Handling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Agent Evaluation",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "MCP Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "A2A Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Agent Safety",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ]
+  ],
+  "APIs & FastAPI": [
+    [
+      "endpoint",
+      "نقطه پایانی"
+    ],
+    [
+      "request",
+      "درخواست"
+    ],
+    [
+      "response",
+      "پاسخ"
+    ],
+    [
+      "HTTP method",
+      "متد HTTP"
+    ],
+    [
+      "status code",
+      "کد وضعیت"
+    ],
+    [
+      "payload",
+      "محموله داده"
+    ],
+    [
+      "serialization",
+      "سریال‌سازی"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "schema",
+      "شِما"
+    ],
+    [
+      "authentication",
+      "احراز هویت"
+    ],
+    [
+      "async",
+      "ناهمگام"
+    ],
+    [
+      "dependency injection",
+      "تزریق وابستگی"
+    ],
+    [
+      "HTTP Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "REST",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "JSON",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Status Codes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Requests",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "FastAPI Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Routes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Path/Query Parameters",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Pydantic Models",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Async Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Authentication Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Error Handling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "API Testing",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "OpenAPI/Swagger",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Serving ML Models",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "LLM API Integration",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ]
+  ],
+  "Docker": [
+    [
+      "container",
+      "کانتینر"
+    ],
+    [
+      "image",
+      "ایمیج"
+    ],
+    [
+      "Dockerfile",
+      "فایل ساخت ایمیج"
+    ],
+    [
+      "layer",
+      "لایه"
+    ],
+    [
+      "volume",
+      "ولوم"
+    ],
+    [
+      "network",
+      "شبکه"
+    ],
+    [
+      "registry",
+      "رجیستری"
+    ],
+    [
+      "port mapping",
+      "نگاشت پورت"
+    ],
+    [
+      "environment variable",
+      "متغیر محیطی"
+    ],
+    [
+      "Docker Compose",
+      "داکر کامپوز"
+    ],
+    [
+      "Containers vs VMs",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Images & Containers",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Build/Run",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Volumes",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Networking",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Environment Variables",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Containerizing FastAPI",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Containerizing ML/AI Apps",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Registry Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Docker Best Practices",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ],
+    [
+      "interface",
+      "رابط"
+    ]
+  ],
+  "Cloud": [
+    [
+      "compute",
+      "پردازش"
+    ],
+    [
+      "storage",
+      "ذخیره‌سازی"
+    ],
+    [
+      "IAM",
+      "مدیریت هویت و دسترسی"
+    ],
+    [
+      "region",
+      "منطقه"
+    ],
+    [
+      "availability zone",
+      "ناحیه دسترس‌پذیری"
+    ],
+    [
+      "serverless",
+      "بدون سرور"
+    ],
+    [
+      "autoscaling",
+      "مقیاس‌دهی خودکار"
+    ],
+    [
+      "object storage",
+      "ذخیره‌سازی شیء"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "secret",
+      "راز امنیتی"
+    ],
+    [
+      "Cloud Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "IaaS/PaaS/SaaS",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Networking",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "AWS Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "EC2",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "S3",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Lambda Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "SageMaker Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Azure AI/ML Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GCP Vertex AI Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Secrets",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Cost Basics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ]
+  ],
+  "MLOps & MLflow": [
+    [
+      "experiment tracking",
+      "ردیابی آزمایش"
+    ],
+    [
+      "model registry",
+      "رجیستری مدل"
+    ],
+    [
+      "artifact",
+      "آرتیفکت"
+    ],
+    [
+      "reproducibility",
+      "تکرارپذیری"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "data drift",
+      "تغییر توزیع داده"
+    ],
+    [
+      "model drift",
+      "افت رفتار مدل"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "versioning",
+      "نسخه‌بندی"
+    ],
+    [
+      "MLOps Lifecycle",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "MLflow Tracking",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data/Model Versioning",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Training Pipelines",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Deployment Patterns",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Logging/Metrics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Feature Stores Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Rollback",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ],
+    [
+      "interface",
+      "رابط"
+    ],
+    [
+      "parameter",
+      "پارامتر"
+    ],
+    [
+      "argument",
+      "آرگومان"
+    ],
+    [
+      "state",
+      "وضعیت"
+    ],
+    [
+      "resource",
+      "منبع"
+    ],
+    [
+      "latency",
+      "تأخیر"
+    ]
+  ],
+  "CI/CD": [
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "continuous integration",
+      "یکپارچه‌سازی پیوسته"
+    ],
+    [
+      "continuous delivery",
+      "تحویل پیوسته"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "runner",
+      "اجراکننده"
+    ],
+    [
+      "build",
+      "ساخت"
+    ],
+    [
+      "test",
+      "آزمون"
+    ],
+    [
+      "deploy",
+      "استقرار"
+    ],
+    [
+      "secret",
+      "راز"
+    ],
+    [
+      "rollback",
+      "بازگشت نسخه"
+    ],
+    [
+      "CI/CD Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Automated Tests",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Linting",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "GitHub Actions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Workflow YAML",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Build Pipeline",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Docker CI",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Deployment Pipeline",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Secrets",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Environments",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Rollback Strategies",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ],
+    [
+      "interface",
+      "رابط"
+    ],
+    [
+      "parameter",
+      "پارامتر"
+    ]
+  ],
+  "Kafka & Streaming": [
+    [
+      "topic",
+      "تاپیک"
+    ],
+    [
+      "partition",
+      "پارتیشن"
+    ],
+    [
+      "producer",
+      "تولیدکننده"
+    ],
+    [
+      "consumer",
+      "مصرف‌کننده"
+    ],
+    [
+      "offset",
+      "آفست"
+    ],
+    [
+      "broker",
+      "بروکر"
+    ],
+    [
+      "consumer group",
+      "گروه مصرف‌کننده"
+    ],
+    [
+      "event",
+      "رویداد"
+    ],
+    [
+      "stream",
+      "جریان"
+    ],
+    [
+      "serialization",
+      "سریال‌سازی"
+    ],
+    [
+      "Streaming Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Kafka Architecture",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Topics/Partitions",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Consumer Groups",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Offsets",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Delivery Semantics",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Kafka with Python",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Event-driven AI Pipelines",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ],
+    [
+      "interface",
+      "رابط"
+    ],
+    [
+      "parameter",
+      "پارامتر"
+    ],
+    [
+      "argument",
+      "آرگومان"
+    ]
+  ],
+  "Kubernetes": [
+    [
+      "cluster",
+      "کلاستر"
+    ],
+    [
+      "node",
+      "نود"
+    ],
+    [
+      "pod",
+      "پاد"
+    ],
+    [
+      "deployment",
+      "دیپلویمنت"
+    ],
+    [
+      "service",
+      "سرویس"
+    ],
+    [
+      "namespace",
+      "فضای نام"
+    ],
+    [
+      "ConfigMap",
+      "کانفیگ‌مپ"
+    ],
+    [
+      "Secret",
+      "سیکرت"
+    ],
+    [
+      "ingress",
+      "ورودی شبکه"
+    ],
+    [
+      "autoscaling",
+      "مقیاس‌دهی خودکار"
+    ],
+    [
+      "Kubernetes Fundamentals",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Cluster/Node/Pod",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "ConfigMap/Secret",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Ingress Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Scaling",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Health Checks",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Rolling Updates",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Docker-to-Kubernetes Workflow",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "AI Workload Concepts",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "trade-off",
+      "مصالحه فنی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ],
+    [
+      "maintainability",
+      "نگهداشت‌پذیری"
+    ],
+    [
+      "readability",
+      "خوانایی"
+    ],
+    [
+      "abstraction",
+      "انتزاع"
+    ],
+    [
+      "interface",
+      "رابط"
+    ],
+    [
+      "parameter",
+      "پارامتر"
+    ],
+    [
+      "argument",
+      "آرگومان"
+    ]
+  ],
+  "AI System Design": [
+    [
+      "scalability",
+      "مقیاس‌پذیری"
+    ],
+    [
+      "latency",
+      "تأخیر"
+    ],
+    [
+      "throughput",
+      "توان عملیاتی"
+    ],
+    [
+      "availability",
+      "دسترس‌پذیری"
+    ],
+    [
+      "reliability",
+      "قابلیت اطمینان"
+    ],
+    [
+      "observability",
+      "مشاهده‌پذیری"
+    ],
+    [
+      "caching",
+      "کش"
+    ],
+    [
+      "queue",
+      "صف"
+    ],
+    [
+      "batch inference",
+      "استنتاج دسته‌ای"
+    ],
+    [
+      "online inference",
+      "استنتاج آنلاین"
+    ],
+    [
+      "trade-off",
+      "مصالحه طراحی"
+    ],
+    [
+      "bottleneck",
+      "گلوگاه"
+    ],
+    [
+      "Requirements & Constraints",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Batch vs Online Inference",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "AI Service Architecture",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Model Serving",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Data Pipelines",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Feature Pipelines",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "API Design",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Latency vs Throughput",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Queues",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Security",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Cost Optimization",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "LLM System Design",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "RAG System Design",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Agent System Design",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "Trade-offs",
+      "اصطلاح مهم این بخش"
+    ],
+    [
+      "concept",
+      "مفهوم"
+    ],
+    [
+      "implementation",
+      "پیاده‌سازی"
+    ],
+    [
+      "workflow",
+      "گردش کار"
+    ],
+    [
+      "input",
+      "ورودی"
+    ],
+    [
+      "output",
+      "خروجی"
+    ],
+    [
+      "performance",
+      "کارایی"
+    ],
+    [
+      "debugging",
+      "اشکال‌زدایی"
+    ],
+    [
+      "testing",
+      "آزمون"
+    ],
+    [
+      "validation",
+      "اعتبارسنجی"
+    ],
+    [
+      "production",
+      "محیط عملیاتی"
+    ],
+    [
+      "deployment",
+      "استقرار"
+    ],
+    [
+      "monitoring",
+      "پایش"
+    ],
+    [
+      "optimization",
+      "بهینه‌سازی"
+    ],
+    [
+      "edge case",
+      "حالت مرزی"
+    ],
+    [
+      "best practice",
+      "روش پیشنهادی"
+    ],
+    [
+      "dependency",
+      "وابستگی"
+    ],
+    [
+      "configuration",
+      "پیکربندی"
+    ],
+    [
+      "architecture",
+      "معماری"
+    ],
+    [
+      "pipeline",
+      "پایپ‌لاین"
+    ],
+    [
+      "framework",
+      "چارچوب"
+    ],
+    [
+      "library",
+      "کتابخانه"
+    ],
+    [
+      "runtime",
+      "زمان اجرا"
+    ],
+    [
+      "error handling",
+      "مدیریت خطا"
+    ]
+  ]
+}
